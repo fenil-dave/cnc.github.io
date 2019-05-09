@@ -1,0 +1,48 @@
+.nav-link{
+	font-family: sans-serif;
+	color: white;
+	margin: 0px 10px;
+}
+
+.navbar{
+	background-color: black;
+	opacity: 0.8;
+	margin-bottom: 2%;
+}
+.nav-link:hover{
+	background-color: white;
+	color: black;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+}
+.form-control:hover{
+	box-shadow: 0 0 20px skyblue;
+}
+.view-font{
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-left: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.navbar-toggler{
+	background-color: grey;
+}
+.month{
+	transition: transform .2s;
+	height: 40px;
+	width: 70%;
+	background-image: linear-gradient(to bottom right, black , white);
+	border-radius: 20px;
+	color: white;
+}
+
+.month:hover{
+	transform: scale(1.4);
+}
+.month_table{
+	display: none;
+}
